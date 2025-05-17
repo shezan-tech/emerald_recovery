@@ -140,7 +140,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
 # Crypto
 TW_INCLUDE_CRYPTO := false
-TW_INCLUDE_CRYPTO_FBE := true
+TW_INCLUDE_CRYPTO_FBE := false
 TW_INCLUDE_FBE_METADATA_DECRYPT := false
 BOARD_USES_METADATA_PARTITION := false
 
